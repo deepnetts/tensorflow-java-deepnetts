@@ -41,7 +41,7 @@ public class VggNetInference {
         String vggNetFile = deepNettsDir + "/" + "vggnet16.dnet";
 
         // download pre-trained saved vggnet16 from tensorflow into local {user.home}/.deepnetts dir, if it does now allready exist there
-        downloadIfNotExists(vggNetFile, "https://www.dropbox.com/scl/fi/gewppzaf99vrwl0tvhblj/vggnet16_3.1.0.zip?rlkey=s65718p0sudteq5xfphs9e221&dl=1");
+        downloadIfNotExists(vggNetFile, "https://www.dropbox.com/scl/fi/tnwww1p9ie5wttuglt3m7/vggnet16_3.1.0.zip?rlkey=35frfi498gj6nm693rzge8apb&dl=1");
 
         // create an instance of trained VGGNet16 from file 
         VggNet16 neuralNetwork = VggNet16.fromFile(vggNetFile); 
